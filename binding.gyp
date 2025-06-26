@@ -26,7 +26,8 @@
                 'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
                 "OTHER_CFLAGS": [
                     '-mmacosx-version-min=10.11',
-                    '-std=c++11',
+                    # Use C++17 to build against Node 22 headers
+                    '-std=c++17',
                     '-stdlib=libc++',                
                     "-fexceptions",
                     "<!@(pkg-config --cflags <(osLibraries) <(myLibraries))"
