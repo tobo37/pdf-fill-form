@@ -120,6 +120,9 @@ For example if you have a radio button for gender called "Gender1" with options 
 
 ## Installation
 
+This package supports **Node.js 22** or newer. Building the native module
+requires a compiler with **C++17** support.
+
 ### macOS
 
 Preferable method to install library dependencies is via [Homebrew](http://brew.sh/)
@@ -220,6 +223,9 @@ Not currently supported
 * Support for other form field types than TextField, Checkbox, and Radio button
 
 ## Changelog
+
+v5.2.0 (26.6.2025)
+- Support for Node 22
 
 v5.1.0 (15.3.2021)
 - Fix the v8 namespace (by @gedaiu)

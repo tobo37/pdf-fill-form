@@ -1,4 +1,4 @@
-var pdfFormFill = require('lib/pdf-fill-form.js');
+var pdfFormFill = require('./lib/pdf-fill-form.js');
 var fs = require('fs');
 
 // Show fields
